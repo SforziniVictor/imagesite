@@ -1,11 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
 
-const TopBar = () => {
-    return (
-        <div>
-            <h1>Top Bar Component</h1>
-        </div>
-    );
+class TopBar extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Top Bar Component</h1>
+            </div>
+        );
+    }
 }  
 
 export default TopBar;
